@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicatedWord", "DuplicatedWord\DuplicatedWord.csproj", "{69D8DF71-1030-4D83-8743-05732AE651DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuplicatedWord", "DuplicatedWord\DuplicatedWord.csproj", "{69D8DF71-1030-4D83-8743-05732AE651DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindOddNumber", "FindOddNumber\FindOddNumber.csproj", "{88BE1E16-E396-4C14-9F82-5B37D2888F3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindOddNumber", "FindOddNumber\FindOddNumber.csproj", "{88BE1E16-E396-4C14-9F82-5B37D2888F3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindSecondLargeNumber", "FindSecondLargeNumber\FindSecondLargeNumber.csproj", "{09BF716B-9467-4EDE-85E3-93B5948BBAD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindSecondLargeNumber", "FindSecondLargeNumber\FindSecondLargeNumber.csproj", "{09BF716B-9467-4EDE-85E3-93B5948BBAD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectNumber", "PerfectNumber\PerfectNumber.csproj", "{B430E1A3-D4FA-422A-A380-7182E8A9D679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerfectNumber", "PerfectNumber\PerfectNumber.csproj", "{B430E1A3-D4FA-422A-A380-7182E8A9D679}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWord", "ReverseWord\ReverseWord.csproj", "{C61DDC13-47A0-445A-9C44-1D18A03A39E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWord", "ReverseWord\ReverseWord.csproj", "{C61DDC13-47A0-445A-9C44-1D18A03A39E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnMissingOddNumber", "ReturnMissingOddNumber\ReturnMissingOddNumber.csproj", "{7F553C7C-6917-4453-B249-0BA92BB4F122}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C61DDC13-47A0-445A-9C44-1D18A03A39E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C61DDC13-47A0-445A-9C44-1D18A03A39E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C61DDC13-47A0-445A-9C44-1D18A03A39E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F553C7C-6917-4453-B249-0BA92BB4F122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F553C7C-6917-4453-B249-0BA92BB4F122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F553C7C-6917-4453-B249-0BA92BB4F122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F553C7C-6917-4453-B249-0BA92BB4F122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
