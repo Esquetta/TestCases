@@ -1,5 +1,5 @@
 ﻿
-
+//Palindrome
 bool ReverseWord(string text)
 {
     text = text.ToLower();
@@ -22,4 +22,14 @@ bool ReverseWord(string text)
 
 }
 
+string ReverseString(string input)
+{
+    char[] charArray = input.ToCharArray();
+
+    Array.Reverse(charArray);
+
+    return new string(charArray);
+}
+
 Console.WriteLine(ReverseWord("Civic"));
+Console.WriteLine(ReverseString("Civic"));
